@@ -18,7 +18,7 @@
 			<a class="featured-link" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 
 			<div class="featured-content">
-				<h3 class="featured-title"><?php the_title(); ?></h3>
+				<h2 class="featured-title"><?php the_title(); ?></h2>
 			</div>
 
 		</div>

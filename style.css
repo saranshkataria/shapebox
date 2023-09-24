@@ -2665,7 +2665,7 @@ body.dark #theme-toggle-btn:before {
   padding: 10px 20px 0;
   font-size: 16px;
   line-height: 1.6em;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 .blog-card-more-link {
   background: linear-gradient(90deg, #c14bff 0%, #6c5dd3 100%);
@@ -2725,7 +2725,7 @@ body.dark #theme-toggle-btn:before {
 .blog-card-meta {
   padding: 0 20px 0;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 .single .blog-card-meta {
   padding-bottom: 30px;
@@ -2746,7 +2746,7 @@ body.dark #theme-toggle-btn:before {
   margin-right: 6px;
 }
 .blog-card-meta li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 .blog-card-meta li a:hover {
   color: #333;
@@ -2980,7 +2980,7 @@ body.search .type-page .blog-card-author {
 .blog-single-meta {
   float: left;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
   margin-top: 4px;
 }
 .blog-single-meta li {
@@ -2999,7 +2999,7 @@ body.search .type-page .blog-card-author {
   margin-right: 6px;
 }
 .blog-single-meta li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 .blog-single-meta li a:hover {
   color: #333;
@@ -3618,7 +3618,7 @@ body.search .type-page .blog-card-author {
 /*  widget : search
 /* ------------------------------------ */
 .widget_search input.search {
-  color: #999;
+  color: #060E14;
   padding-left: 26px;
   width: 100%;
 }
@@ -4138,7 +4138,7 @@ li #reply-title {
 }
 .wp-pagenavi a,
 .wp-pagenavi span {
-  color: #aaa;
+  color: #505863;
   font-size: 16px;
   padding: 9px 14px;
   display: inline-block;
@@ -4507,4 +4507,5 @@ li #reply-title {
 
 .cat-item a {
   font-weight: 300;
+  color: #060E14
 }
