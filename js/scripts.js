@@ -234,7 +234,6 @@ jQuery(document).ready(function ($) {
         },
       ],
     });
-  $(".slick-featured-wrap-outer").show();
 
   /*  Slick image slide
 /* ------------------------------------ */
