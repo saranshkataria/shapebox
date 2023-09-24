@@ -190,7 +190,7 @@ jQuery(document).ready(function ($) {
   $(".slick-featured")
     .randomize()
     .slick({
-      centerMode: true,
+      centerMode: false,
       centerPadding: "0",
       slidesToShow: 1,
       appendArrows: ".slick-featured-nav",
@@ -200,7 +200,7 @@ jQuery(document).ready(function ($) {
           breakpoint: 1280,
           settings: {
             arrows: true,
-            centerMode: true,
+            centerMode: false,
             centerPadding: "0",
             slidesToShow: 1,
           },
@@ -209,7 +209,7 @@ jQuery(document).ready(function ($) {
           breakpoint: 1024,
           settings: {
             arrows: true,
-            centerMode: true,
+            centerMode: false,
             centerPadding: "0",
             slidesToShow: 1,
           },
@@ -218,7 +218,7 @@ jQuery(document).ready(function ($) {
           breakpoint: 768,
           settings: {
             arrows: true,
-            centerMode: true,
+            centerMode: false,
             centerPadding: "0",
             slidesToShow: 1,
           },
@@ -227,7 +227,7 @@ jQuery(document).ready(function ($) {
           breakpoint: 480,
           settings: {
             arrows: true,
-            centerMode: true,
+            centerMode: false,
             centerPadding: "0",
             slidesToShow: 1,
           },
