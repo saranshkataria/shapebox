@@ -3467,7 +3467,7 @@ body.search .type-page .blog-card-author {
 }
 .sidebar .widget > h3 > span {
   background: #fff;
-  color: #999;
+  color: rgba(0,0,0,.7);
   font-weight: 800;
   display: block;
   float: left;
@@ -3783,7 +3783,7 @@ body.search .type-page .blog-card-author {
 .alx-tab .tab-item-date,
 .alx-tab .tab-item-name,
 .alx-posts .post-item-date {
-  color: #999;
+  color: rgba(0,0,0,.7);
   font-size: 13px;
 }
 .alx-tab li:hover .tab-item-thumbnail,
