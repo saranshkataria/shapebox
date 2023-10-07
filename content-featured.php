@@ -62,12 +62,8 @@
 
 			<?php if (get_theme_mod("author-avatar", "on") == "on"): ?>
 			<div class="blog-card-author">
-				<a href="<?php echo get_author_posts_url(
-        get_the_author_meta("ID")
-    ); ?>"><?php echo get_avatar(
-    get_the_author_meta("user_email"),
-    "128"
-); ?></a>
+				<a href="<?php echo get_author_posts_url(get_the_author_meta("ID")); ?>" aria-label="<?php echo "Posts by " . get_the_author_meta( 'display_name' ); ?>">
+				<?php echo get_avatar(get_the_author_meta("user_email"), "128"); ?></a>
 			</div>
 			<?php endif; ?>
 
