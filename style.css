@@ -371,24 +371,9 @@ label {
 .themeform select,
 .themeform textarea,
 .themeform button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-}
-.themeform select {
-  appearance: normal;
-  -moz-appearance: menulist;
-  -webkit-appearance: menulist;
-}
-.themeform input[type="checkbox"] {
-  -moz-appearance: checkbox;
-  -webkit-appearance: checkbox;
-}
-.themeform input[type="radio"] {
-  -moz-appearance: radio;
-  -webkit-appearance: radio;
 }
 .themeform label {
   font-weight: 600;
@@ -1417,7 +1402,7 @@ iframe {
 @media only screen and (min-width: 1081px) {
   #header {
     pointer-events: auto;
-    -webkit-transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
