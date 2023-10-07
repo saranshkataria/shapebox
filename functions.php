@@ -742,3 +742,5 @@ function remove_wp_css() {
 	wp_dequeue_style('wc-blocks-style');
 }
 add_action('wp_enqueue_scripts', 'remove_wp_css', 100);
+
+include( get_template_directory() . '/functions/wisdomgeek-tabs.php' );

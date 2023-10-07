@@ -1,17 +1,17 @@
 /*
-Theme Name: Shapebox
-Theme URI: http://alx.media/themes/shapebox/
+Theme Name: WisdomGeek
+Theme URI: https://www.wisdomgeek.com
 Version: 1.1.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
-Description: <a href="http://alx.media/themes/shapebox/">Shapebox</a> is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Pick any accent and gradient colors you wish. Set sidebar to the left or right - or no sidebar at all. You can also enable a light/dark theme toggle switch in the sidebar. Demo: http://demo.alx.media/x/?theme=Shapebox
-Author: Alexander Agnarson
-Author URI: http://alx.media
+Description: <a href="https://www.wisdomgeek.com">WisdomGeek</a> is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Pick any accent and gradient colors you wish. Set sidebar to the left or right - or no sidebar at all. You can also enable a light/dark theme toggle switch in the sidebar. Demo: https://www.wisdomgeek.com
+Author: Saransh Kataria
+Author URI: https://www.wisdomgeek.com
 Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets, wide-blocks
-Text Domain: shapebox
+Text Domain: WisdomGeek
 
-	Copyright: (c) 2018 Alexander "Alx" Agnarson
+	Copyright: (c) 2018 Saransh Kataria
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -447,7 +447,7 @@ label {
   line-height: 20px;
 }
 .themeform.searchform div:after {
-  color: #ccc;
+  color: #767676;
   line-height: 24px;
   font-size: 14px;
   content: "\f002";
@@ -505,7 +505,7 @@ label {
 }
 .entry blockquote:before {
   content: "\f10d";
-  color: #ccc;
+  color: #767676;
   font-size: 32px;
   font-style: normal;
   font-family: "Font Awesome 6 Free";
@@ -759,7 +759,7 @@ h6 {
 .entry h4 span,
 .entry h5 span,
 .entry h6 span {
-  color: #bbb;
+  color: #767676;
 }
 .entry h1 {
   font-size: 38px;
@@ -1700,7 +1700,7 @@ body.dark #theme-toggle-btn:before {
   border: 1px solid #ddd;
 }
 .search-expand .themeform input:focus {
-  border-color: #ccc;
+  border-color: #767676;
 }
 .toggle-search.active {
   padding-top: 18px;
@@ -2091,7 +2091,7 @@ body.dark #theme-toggle-btn:before {
   color: #333;
 }
 .nav-menu:not(.mobile) ul ul a:hover {
-  color: #ccc;
+  color: #767676;
 }
 .nav-menu:not(.mobile) ul ul > li:hover > span {
   background: rgba(255, 255, 255, 0.1);
@@ -2111,7 +2111,7 @@ body.dark #theme-toggle-btn:before {
   color: #333;
 }
 .nav-menu:not(.mobile) button .svg-icon {
-  fill: #bbb;
+  fill: #767676;
 }
 .nav-menu:not(.mobile) ul ul button {
   background: none;
@@ -2273,7 +2273,7 @@ body.dark #theme-toggle-btn:before {
   transition: all 0.3s ease;
 }
 .featured-item {
-  background-color: #ccc;
+  background-color: #767676;
   background-position: center;
   background-size: cover;
   border-radius: 14px;
@@ -2785,7 +2785,7 @@ body.dark #theme-toggle-btn:before {
 
 .blog-card-author a:focus img,
 .blog-single-author a:focus img {
-  border-color: #ccc;
+  border-color: #767676;
 }
 .blog-card-comments:focus {
   color: #9754e9;
@@ -2862,7 +2862,7 @@ body.search .type-page .blog-card-author {
 }
 .blog-single-inner {
   height: 460px;
-  background-color: #ccc;
+  background-color: #767676;
   background-position: center;
   background-size: cover;
   border-radius: 14px;
@@ -3299,7 +3299,7 @@ body.search .type-page .blog-card-author {
   padding-bottom: 10px;
 }
 .post-nav li i {
-  color: #ccc;
+  color: #767676;
   font-size: 18px;
   position: absolute;
   top: 50%;
@@ -3475,7 +3475,7 @@ body.search .type-page .blog-card-author {
   font-weight: 900;
   font-size: 12px;
   margin-right: 6px;
-  color: #ccc;
+  color: #767676;
   display: inline-block !important;
   width: 1em;
   text-align: center;
@@ -3536,7 +3536,7 @@ body.search .type-page .blog-card-author {
 .widget_archive ul li,
 .widget_categories ul li,
 .widget_links ul li {
-  color: #bbb;
+  color: #767676;
 }
 
 .widget_recent_comments ul li,
@@ -3906,7 +3906,7 @@ body.search .type-page .blog-card-author {
 }
 .commentlist .comment-meta:before,
 .pinglist .ping-meta:before {
-  color: #ccc;
+  color: #767676;
   content: "\f017";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
