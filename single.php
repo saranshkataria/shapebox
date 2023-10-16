@@ -73,8 +73,16 @@
 
 					<?php if ( ( get_theme_mod( 'author-bio', 'on' ) == 'on' ) && get_the_author_meta( 'description' ) ): ?>
 						<div class="author-bio">
-							<div class="bio-avatar"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></div>
-							<p class="bio-name"><?php the_author_meta('display_name'); ?></p>
+							<div class="bio-avatar">
+								<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>" aria-label="<?php echo "Posts by " . get_the_author_meta( 'display_name' ); ?>">
+									<?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?>
+								</a>
+							</div>
+							<p class="bio-name">
+								<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>" aria-label="<?php echo "Posts by " . get_the_author_meta( 'display_name' ); ?>">
+									<?php the_author_meta('display_name'); ?>
+								</a>
+							</p>
 							<p class="bio-desc"><?php the_author_meta('description'); ?></p>
 							<div class="clear"></div>
 						</div>
