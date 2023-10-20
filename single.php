@@ -45,7 +45,7 @@
     <source srcset="<?php echo $small_image_url[0]; ?> 1x" media="(max-width: 767px)">
     <img src="<?php echo esc_url(
         $large_image_url[0]
-    ); ?>" alt="<?php the_title(); ?>" style="width:100%;height:auto;">
+    ); ?>" alt="<?php the_title(); ?>" width="920" height="518">
   </picture>
 
   <?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
