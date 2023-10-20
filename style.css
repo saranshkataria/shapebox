@@ -1402,7 +1402,7 @@ iframe {
 @media only screen and (min-width: 1081px) {
   #header {
     pointer-events: auto;
--webkit-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -1558,9 +1558,8 @@ body.dark #theme-toggle-btn:before {
 }
 .site-title a img {
   display: block;
-  max-width: 60px;
-  max-height: 60px;
-  height: auto;
+  width: 60px;
+  height: 60px;
   padding: 0;
   margin: 0 auto;
   -webkit-border-radius: 0;
@@ -2182,7 +2181,7 @@ body.dark #theme-toggle-btn:before {
   display: block;
 }
 
-.slick-featured-item:not(:first-child ) {
+.slick-featured-item:not(:first-child) {
   display: none;
 }
 .slick-featured-wrap {
@@ -3452,7 +3451,7 @@ body.search .type-page .blog-card-author {
 }
 .sidebar .widget > h3 > span {
   background: #fff;
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
   font-weight: 800;
   display: block;
   float: left;
@@ -3603,7 +3602,7 @@ body.search .type-page .blog-card-author {
 /*  widget : search
 /* ------------------------------------ */
 .widget_search input.search {
-  color: #060E14;
+  color: #060e14;
   padding-left: 26px;
   width: 100%;
 }
@@ -3768,7 +3767,7 @@ body.search .type-page .blog-card-author {
 .alx-tab .tab-item-date,
 .alx-tab .tab-item-name,
 .alx-posts .post-item-date {
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 13px;
 }
 .alx-tab li:hover .tab-item-thumbnail,
@@ -4492,5 +4491,5 @@ li #reply-title {
 
 .cat-item a {
   font-weight: 300;
-  color: #060E14
+  color: #060e14;
 }
