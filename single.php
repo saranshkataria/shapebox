@@ -23,18 +23,40 @@
 
 					<?php else: ?>
 
-						<div class="blog-single-inner">
-								<img src="<?php the_post_thumbnail_url('shapebox-large'); ?>" alt="<?php the_title(); ?>"> </img>
-							<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
-								<a class="blog-card-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
-							<?php endif; ?>
+						<?php
+  $large_image_url = wp_get_attachment_image_src(
+      get_post_thumbnail_id(),
+      "shapebox-large"
+  );
+  $medium_image_url = wp_get_attachment_image_src(
+      get_post_thumbnail_id(),
+      "shapebox-medium"
+  );
+  $small_image_url = wp_get_attachment_image_src(
+      get_post_thumbnail_id(),
+      "shapebox-small"
+  );
+?>
 
-							<div class="blog-single-inner-inner">
-								<h1 class="blog-single-title"><?php the_title(); ?></h1>
-								<?php do_action( 'alx_ext_sharrre' ); ?>
-							</div>
+<div class="blog-single-inner">
+  <picture>
+    <source srcset="<?php echo $large_image_url[0]; ?> 2x" media="(min-width: 1200px)">
+    <source srcset="<?php echo $medium_image_url[0]; ?> 1.5x" media="(min-width: 768px)">
+    <source srcset="<?php echo $small_image_url[0]; ?> 1x" media="(max-width: 767px)">
+    <img src="<?php echo esc_url(
+        $large_image_url[0]
+    ); ?>" alt="<?php the_title(); ?>" style="width:100%;height:auto;">
+  </picture>
 
-						</div>
+  <?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
+    <a class="blog-card-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
+  <?php endif; ?>
+
+  <div class="blog-single-inner-inner">
+    <h1 class="blog-single-title"><?php the_title(); ?></h1>
+    <?php do_action( 'alx_ext_sharrre' ); ?>
+  </div>
+</div>
 
 					<?php endif; ?>
 
