@@ -390,7 +390,7 @@ label {
 .themeform textarea {
   background: #fff;
   border: 1px solid #e5e5e5;
-  color: #777;
+  color: #060e14;
   display: block;
   max-width: 100%;
   outline: none;
@@ -493,7 +493,7 @@ label {
 }
 .entry blockquote {
   position: relative;
-  color: #777;
+  color: #060e14;
   font-style: italic;
   margin: 0 0 20px 0;
   padding-left: 50px;
@@ -1232,7 +1232,7 @@ iframe {
 /* ------------------------------------ */
 .notebox {
   position: relative;
-  color: #777;
+  color: #060e14;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -2468,7 +2468,7 @@ body.dark #theme-toggle-btn:before {
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
   border-radius: 20px 20px 0 0;
-  color: #777;
+  color: #060e14;
   position: relative;
   padding-bottom: 70px;
 }
@@ -3170,7 +3170,7 @@ body.search .type-page .blog-card-author {
 }
 .post-tags a:hover {
   background-color: #e5e5e5;
-  color: #777;
+  color: #060e14;
 }
 
 /*  single : author bio
@@ -3180,7 +3180,7 @@ body.search .type-page .blog-card-author {
   padding: 0 20px 20px;
   border-radius: 20px;
   position: relative;
-  color: #777;
+  color: #060e14;
   margin: 40px 0;
   text-align: center;
 }
@@ -3224,7 +3224,7 @@ body.search .type-page .blog-card-author {
   margin: 10px 0;
 }
 .author-bio .bio-desc {
-  color: #777;
+  color: #060e14;
   font-size: 16px;
   line-height: 1.5em;
 }
@@ -3434,7 +3434,7 @@ body.search .type-page .blog-card-author {
 }
 .widget select {
   border: 1px solid #ddd;
-  color: #777;
+  color: #060e14;
   font-size: 15px;
   padding: 7px;
   width: 100%;
@@ -3940,7 +3940,7 @@ body.search .type-page .blog-card-author {
 /* comment text */
 .commentlist .comment-body p {
   margin-bottom: 8px;
-  color: #777;
+  color: #060e14;
   clear: both;
 }
 .commentlist .comment-body strong {
@@ -4054,7 +4054,7 @@ li #reply-title {
   font-size: 12px;
 }
 #cancel-comment-reply-link:hover {
-  color: #777;
+  color: #060e14;
 }
 #commentform {
   background: #f5f5f5;
